@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7d58f19618628aaeee5f09c7776f8cd6",
+    "revision": "9b0a826485cf32bd4a5391bf7a83fede",
     "url": "/Tanwinder/react-hooks/index.html"
   },
   {
-    "revision": "7e31711f8b9851b3d0bf",
+    "revision": "48e5f4ee5611776ef957",
     "url": "/Tanwinder/react-hooks/static/css/main.5f361e03.chunk.css"
   },
   {
-    "revision": "74093713b8067bdaf7ab",
-    "url": "/Tanwinder/react-hooks/static/js/2.531a95bf.chunk.js"
+    "revision": "aa9cc2feac94c4c9d04b",
+    "url": "/Tanwinder/react-hooks/static/js/2.49285e05.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/Tanwinder/react-hooks/static/js/2.531a95bf.chunk.js.LICENSE.txt"
+    "url": "/Tanwinder/react-hooks/static/js/2.49285e05.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7e31711f8b9851b3d0bf",
-    "url": "/Tanwinder/react-hooks/static/js/main.ac9b4887.chunk.js"
+    "revision": "48e5f4ee5611776ef957",
+    "url": "/Tanwinder/react-hooks/static/js/main.18af01b7.chunk.js"
   },
   {
     "revision": "252dd28612532f34727f",

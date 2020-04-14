@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Tanwinder/react-hooks/precache-manifest.8b35d5878b64a42527f07ac429f1320a.js"
+  "/Tanwinder/react-hooks/precache-manifest.eaed0c4ae4bf7ce42741a9f9b4f2ceea.js"
 );
 
 self.addEventListener('message', (event) => {
