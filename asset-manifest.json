@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/Tanwinder/react-hooks/static/css/main.5f361e03.chunk.css",
-    "main.js": "/Tanwinder/react-hooks/static/js/main.18af01b7.chunk.js",
-    "main.js.map": "/Tanwinder/react-hooks/static/js/main.18af01b7.chunk.js.map",
-    "runtime-main.js": "/Tanwinder/react-hooks/static/js/runtime-main.5b9ab69b.js",
-    "runtime-main.js.map": "/Tanwinder/react-hooks/static/js/runtime-main.5b9ab69b.js.map",
-    "static/js/2.49285e05.chunk.js": "/Tanwinder/react-hooks/static/js/2.49285e05.chunk.js",
-    "static/js/2.49285e05.chunk.js.map": "/Tanwinder/react-hooks/static/js/2.49285e05.chunk.js.map",
-    "index.html": "/Tanwinder/react-hooks/index.html",
-    "precache-manifest.eaed0c4ae4bf7ce42741a9f9b4f2ceea.js": "/Tanwinder/react-hooks/precache-manifest.eaed0c4ae4bf7ce42741a9f9b4f2ceea.js",
-    "service-worker.js": "/Tanwinder/react-hooks/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/Tanwinder/react-hooks/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.49285e05.chunk.js.LICENSE.txt": "/Tanwinder/react-hooks/static/js/2.49285e05.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/Tanwinder/react-hooks/static/media/logo.5d5d9eef.svg"
+    "main.css": "/react-hooks/static/css/main.5f361e03.chunk.css",
+    "main.js": "/react-hooks/static/js/main.d3864f34.chunk.js",
+    "main.js.map": "/react-hooks/static/js/main.d3864f34.chunk.js.map",
+    "runtime-main.js": "/react-hooks/static/js/runtime-main.cf3da21f.js",
+    "runtime-main.js.map": "/react-hooks/static/js/runtime-main.cf3da21f.js.map",
+    "static/js/2.49285e05.chunk.js": "/react-hooks/static/js/2.49285e05.chunk.js",
+    "static/js/2.49285e05.chunk.js.map": "/react-hooks/static/js/2.49285e05.chunk.js.map",
+    "index.html": "/react-hooks/index.html",
+    "precache-manifest.ac4af71a85169c47c3d08ae849f55a87.js": "/react-hooks/precache-manifest.ac4af71a85169c47c3d08ae849f55a87.js",
+    "service-worker.js": "/react-hooks/service-worker.js",
+    "static/css/main.5f361e03.chunk.css.map": "/react-hooks/static/css/main.5f361e03.chunk.css.map",
+    "static/js/2.49285e05.chunk.js.LICENSE.txt": "/react-hooks/static/js/2.49285e05.chunk.js.LICENSE.txt",
+    "static/media/logo.svg": "/react-hooks/static/media/logo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.5b9ab69b.js",
+    "static/js/runtime-main.cf3da21f.js",
     "static/js/2.49285e05.chunk.js",
     "static/css/main.5f361e03.chunk.css",
-    "static/js/main.18af01b7.chunk.js"
+    "static/js/main.d3864f34.chunk.js"
   ]
 }
