@@ -9,8 +9,11 @@ export async function Api(url, options, token) {
         timeout: 5000
     });
     instance.interceptors.request.use((req) => {
-        if (localStorage.getItem('profile')) {
-          req.headers.Authorization = `Bearer ${JSON.parse(localStorage.getItem('profile')).token}`;
+        // if (localStorage.getItem('profile')) {
+        //   req.headers.Authorization = `Bearer ${JSON.parse(localStorage.getItem('profile')).token}`;
+        // }
+        if (sessionStorage.getItem('profile')) {
+            req.headers.Authorization = `Bearer ${JSON.parse(sessionStorage.getItem('profile')).token}`;
         }
       
         return req;

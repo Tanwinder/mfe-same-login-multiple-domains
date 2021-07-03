@@ -7,15 +7,17 @@ function* callLoginSaga({formData, history, alreadyLoggedIn}) {
     const { from } = history?.location?.state || { from: { pathname: "/" } };
     // const {from} = history?.state?.state;  //to access different previous domain
     try {
-        if (!!alreadyLoggedIn && false) {
-            yield put({ type: "AUTH", payload: formData });
+        if (!!alreadyLoggedIn) {
+            yield put({ type: AUTH_RESULT, payload: formData });
+            history.push("/");
         } else {
             const options = {
                 method: 'post',
                 payload: formData
             }
             const {data} = yield call(Api, '/auth/signin', options);
-            localStorage.setItem('profile', JSON.stringify(data));
+            // localStorage.setItem('profile', JSON.stringify(data));
+            localStorage.setItem("storenumber", 333);
             sessionStorage.setItem('profile', JSON.stringify(data));
             yield put({ type: AUTH_RESULT, payload: data });
             history.push(from?.pathname, { from: history?.location });

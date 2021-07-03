@@ -10,6 +10,9 @@ const SearchByItem = () => {
     // const [inputVal, setinputVal] = useState('');
     const items = useSelector(state => state?.SearchByItem?.items);
     useEffect(() => {
+        if(!sessionStorage.getItem('profile')) {
+            window.location.href = "http://localhost:4000/login?";
+        }
         dispatch(callList(''));
     }, [])
     const onChangeInput = (event) => {
